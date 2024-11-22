@@ -622,7 +622,7 @@ button {
   background-repeat: no-repeat !important;
   background-size: cover !important;
   position: relative;
-  background-image: url(https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2F.ma%2Fhero.jpg?alt=media&token=f1333456-1acf-4808-9b34-41b58b4df7bf);
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2F.ma%2Fback3.png?alt=media&token=75205472-ab46-4e88-817a-0f6bcd740f9f);
 }
 
 .tf__banner_2 div,
@@ -634,14 +634,15 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 65px;
+  padding-top: 45px;
 }
 
 .tf__banner_text h5 {
   font-size: 17px;
   font-weight: 500;
   text-transform: uppercase;
-  color: var(--colorBlue);
+  /* color: var(--colorBlue); */
+  color: #ed1d25;
   padding-left: 20px;
   font-family: var(--paraFont);
   position: relative;
@@ -666,16 +667,16 @@ button {
 }
 
 .tf__banner_text h1 {
-  font-size: 65px;
+  font-size: 45px;
   font-weight: 700;
   color: var(--colorBlack);
 }
 
 .tf__banner_text h1 span {
-  font-size: 65px;
+  font-size: 50px;
   font-weight: 700;
   color: var(--colorPrimary);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .tf__banner_text p {
@@ -10175,4 +10176,7 @@ section.tf__counter_3 {
   .tf__heading_area h2 {
     font-size: 30px;
   }
+}
+.transition-opacity {
+  transition: opacity 0.5s ease-in-out;
 }

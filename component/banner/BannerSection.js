@@ -11,13 +11,16 @@ const BannerSection = () => {
         <div className="row">
           <div className="col-xl-7 col-lg-8">
             <div className="tf__banner_text wow fadeInUp">
-              <h5>Welcome to Ocean Connecting</h5>
+              {/* <h5>Welcome to Ocean Connecting</h5> */}
               <h1>
-                Students for <span>Little</span> Education from.
+                <span>OceanConnecting </span> Empowering Lives
+                Through Skills and Opportunities
               </h1>
               <p>
-                Our agency can only be as strong as our people & because of team
-                have designed game changing products.
+                OceanConnecting is committed to empowering individuals through
+                language courses, job placement abroad, specialized training,
+                and essential services. We help people build skills, find career
+                opportunities, and improve their lives and communities.
               </p>
               <ul className="d-flex flex-wrap align-items-center">
                 <li>
