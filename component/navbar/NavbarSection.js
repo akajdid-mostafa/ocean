@@ -43,7 +43,7 @@ const NavbarSection = ({ style, logo }) => {
     >
       <div className="container">
         <Link className="navbar-brand" href="/">
-          <img src={logo} alt="Eduor" className="img-fluid w-100" />
+          <img src="images/logo.svg" alt="Eduor" className="img-fluid " />
         </Link>
         {isMobileNavOpen ? (
           <button

@@ -110,7 +110,7 @@ button {
 }
 
 :root {
-  --colorPrimary: #ff7f46;
+  --colorPrimary: #2f3092;
   --colorBlue: #4582ff;
   --colorGreen: #00d6d3;
   --colorBlack: #0f2239;
@@ -161,7 +161,7 @@ button {
 
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0 #faa392;
+    box-shadow: 0 0 0 0 #4582ff;
   }
 }
 
@@ -417,7 +417,7 @@ button {
 .main_menu .navbar-brand {
   margin: 0;
   padding: 0;
-  max-width: 180px;
+  max-width: 140px;
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
@@ -507,7 +507,7 @@ button {
 }
 
 .menu_fix .navbar-brand {
-  max-width: 160px;
+  max-width: 140px;
 }
 
 .menu_fix .navbar-nav {
@@ -622,7 +622,7 @@ button {
   background-repeat: no-repeat !important;
   background-size: cover !important;
   position: relative;
-  background-image: url(../images/banner_bg.jpg);
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2F.ma%2Fhero.jpg?alt=media&token=f1333456-1acf-4808-9b34-41b58b4df7bf);
 }
 
 .tf__banner_2 div,
@@ -692,7 +692,7 @@ button {
 .tf__banner::after {
   position: absolute;
   content: "";
-  background: url(../images/banner_shape.png);
+  background: url(https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2F.ma%2Fpansel2.png?alt=media&token=99e132b9-28d9-46c5-ba23-912002fe2993);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7466,7 +7466,7 @@ section.tf__counter_3 {
   }
 
   .navbar-brand {
-    max-width: 140px !important;
+    max-width: 100px !important;
   }
 
   .navbar-toggler {
@@ -8260,7 +8260,7 @@ section.tf__counter_3 {
   }
 
   .navbar-brand {
-    max-width: 140px !important;
+    max-width: 100px !important;
   }
 
   .navbar-toggler {
@@ -9116,7 +9116,7 @@ section.tf__counter_3 {
   }
 
   .navbar-brand {
-    max-width: 160px !important;
+    max-width: 10px !important;
   }
   .tf__footer_logo_area {
     margin-bottom: 25px;

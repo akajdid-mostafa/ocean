@@ -13,11 +13,14 @@ const NavigationSection = ({ position, btnPosition, navRef }) => {
       id="navbarNav"
     >
       <ul className={`navbar-nav ${position}`}>
-        <li className="nav-item">
+      <li className="nav-item">
+          <Navlink href="/">Home</Navlink>
+        </li>
+        {/* <li className="nav-item">
           <a className="nav-link">
             Home <i className="fa fa-angle-down"></i>
           </a>
-          <ul className="tf__droap_menu">
+          {/* <ul className="">
             <li>
               <SubNavlink href="/">home 1</SubNavlink>
             </li>
@@ -27,8 +30,8 @@ const NavigationSection = ({ position, btnPosition, navRef }) => {
             <li>
               <SubNavlink href="/home-3">home 3</SubNavlink>
             </li>
-          </ul>
-        </li>
+          </ul> 
+        </li> */}
         <li className="nav-item">
           <Navlink href="/about">about us</Navlink>
         </li>
